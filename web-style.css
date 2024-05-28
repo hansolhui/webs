@@ -1,0 +1,58 @@
+nav-link {
+    font-family: "Moirai One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+  }
+
+.container-fluid {background-color: #ffe8a3;
+  padding: 0;
+  margin: 0;
+}
+.nav-link {
+  color: rgb(110, 110, 110); /* 링크 텍스트 색상을 흰색으로 설정 */
+}
+
+.nav-link:hover {
+  color: rgb(58, 58, 58); /* 링크 텍스트를 호버했을 때의 색상 설정 */
+}
+
+.navbar-brand {
+  color: rgb(3, 3, 3); /* 브랜드 텍스트 색상을 흰색으로 설정 */
+}
+
+/* Search 버튼 색상 변경 */
+.btn-custom-search {
+  background-color: #d0a25d; /* 원하는 배경색으로 변경 */
+  color: white; /* 텍스트 색상 */
+  border-color: rgb(255, 255, 255) ; 
+}
+
+.btn-custom-search:hover {
+  background-color: #bf9335; /* 호버 시 배경색 */
+  color: rgb(247, 246, 246); /* 텍스트 색상 */
+}
+
+/* 헤더 영역 */
+.header {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(image1/나만의\ 팔레트\ 배경\ 이미지.png);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+header {
+  margin: 0;
+  padding: 0;
+  background-image: url('image1/background4.avif');
+  background-size: cover; /* 이미지가 전체 배경을 덮도록 크기 조정 */
+  background-repeat: no-repeat; /* 이미지가 반복되지 않도록 설정 */
+  background-position: center center; /* 이미지가 중앙에 위치 */
+  height: 100vh; /* 페이지의 높이를 전체 화면으로 설정 */
+}
+
