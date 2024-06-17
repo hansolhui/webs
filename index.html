@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My own palette</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="web-style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+
+  <body data-bs-spy="scroll" data-bs-target="#nav-menu">
+
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffe8a3;">
+    <div class="container-fluid">
+      <a class="moirai-one-regular navbar-brand" href="#home">
+        <img src="image1/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        My own palette
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="art museum.html">미술관</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="museum.html">전시회</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="a photo exhibition.html">사진전</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-node-plus"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hotweeks">핫한 할인 정보</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Earlybird">얼리버드 티켓</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#best">베스트 리뷰</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#login"><i class="bi bi-person-circle"></i></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-custom-search" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header id=home class="bg-warning-subtle py-5">
+    <div id="carouselCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://www.mmca.go.kr/" target="_blank">
+          <img src="image1/ddd.jpg" class="d-block w-100" alt="NationalMuseum"> </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h4><i class="bi bi-bank"></i> 오늘의 추천 <i class="bi bi-1-circle"></i></h4>
+            <h2>국립 현대 미술관 덕수궁</h2>
+            <h5>한국 근현대 자수: 태양을 잡으려는 새들 2024.05.01.(수)~ 2024.08.04.(일)</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://craftmuseum.seoul.go.kr/main" target="_blank">
+          <img src="image1/ggg.jpg" class="d-block w-100" alt="craftmuseum"> </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h4><i class="bi bi-bank"></i> 오늘의 추천 <i class="bi bi-2-circle"></i></h4>
+            <h2>서울 공예 박물관</h2>
+            <h5>장식 너머 발언 2024.05.28.(화) ~ 2024.07.28.(일)</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.sac.or.kr/site/main/home" target="_blank">
+          <img src="image1/hhh.gif" class="d-block w-100" alt="hangaram"> </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h4><i class="bi bi-bank"></i> 오늘의 추천 <i class="bi bi-3-circle"></i></h4>
+            <h2>예술의전당 한가람미술관</h2>
+            <h5>에드바르 뭉크 : 비욘드 더 스크림 2024.05.22.(수) ~ 2024.09.19.(목)</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+     
+  </header>
+
+
+  <section class="bg-warning-subtle py-5" id="hotweeks">
+
+    <div class="container overflow-hidden">
+        <div class="text-center text-custom py-5" id="hotweek">
+          <h1 class="fw-bold mb-3" style="font-size: 3em;">이번주 핫한 할인 정보 <i class="bi bi-currency-dollar"></i> </h1>
+          <h6 class="fs-4">무더운 여름 어디갈까 고민하지 말고 할인 받아 시원한 문화생활 즐기러 가자 !</h6>
+        </div>
+          <div class="row" id="hotweekscards">
+            <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="shadow card card-hover">
+                <div class="card-body">
+                  <h4 class="card-title">반 고흐, 더 이머시브</h4>
+                  <h5 class="card-title"><i class="bi bi-fire"></i> 20대 여성 선호</h5>
+                  <p class="card-text">서양 미술사상 가장 위대한 화가로 꼽히는 빈센트 반 고흐의 200여 점 작품으로 특별한 경험을 선사하는 몰입형 멀티미디어 체험 전시입니다.</p>
+                  <a href="https://tickets.interpark.com/goods/23015755" target="_blank" class="btn btn-warning">예매처 바로가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="shadow card card-hover">
+                <div class="card-body">
+                  <h4 class="card-title">헬로키티 50주년 특별전</h4>
+                  <h5 class="card-title"><i class="bi bi-fire"></i> 가족 관람객 선호</h5>
+                  <p class="card-text">산리오는 "작은 선물로 큰 웃음을" 이라는 철학을 바탕으로 행복을 전해왔습니다. 2024년, 탄생 50주년을 기념하여 DDP에서 열립니다.</p>
+                  <a href="https://tickets.interpark.com/goods/24005553" target="_blank"  class="btn btn-warning">예매처 바로가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="shadow card card-hover">
+                <div class="card-body">
+                  <h4 class="card-title">창경궁 인문학산책 </h4>
+                  <h5 class="card-title"><i class="bi bi-fire"></i> 중장년층 선호</h5>
+                  <p class="card-text">문화재 전문가인 저자가 직접 다른 곳에서는 경험할 수 없는 시간과 공간 속으로 안내합니다. 주변 소음 속에서도 편안하게 관람 가능합니다.</p>
+                  <a href="https://www.tmon.co.kr/deal/1740574546" target="_blank"  class="btn btn-warning">예매처 바로가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="shadow card card-hover">
+                <div class="card-body">
+                  <h4 class="card-title">까르띠에, 시간의 결정</h4>
+                  <h5 class="card-title"><i class="bi bi-fire"></i> 20대 여성 선호</h5>
+                  <p class="card-text">까르띠에의 예술성, 창의성, 뛰어난 기술의 정수를 보여주는 미스터리 클락과 프리즘 클락으로 시작합니다. 영원의 순간을 경험하세요.</p>
+                  <button type="button" class="btn btn-primary" disabled>예매 종료</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+
+        <section class="bg-warning-subtle py-5" id="Earlybird">
+          <div class="container overflow-hidden">
+            <div class="text-center text-custom py-5">
+              <h1 class="fw-bold mb-3" style="font-size: 3em;">곧 마감 ! <i class="bi bi-twitter"></i> 얼리버드 티켓</h1>
+                <h6 class="fs-4">지금 예매해야 더 할인 받은 가격으로 관람 가능 !</h6>
+            </div>
+          <div class="row" id="earybirdcards">
+            <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
+              <div class="shadow card card-hover">
+                <div class="card-body">
+                  <h3 class="card-title">이토 준지 호러하우스</h3>
+                  <h5 class="card-title">2024. 05. 29(수) ~ 06. 14(금)</h5>
+                  <p class="card-text">그동안 경험해 보지 못한 기괴하고도 아름다운 공포가 시작됩니다. 그가 선사하는 치명적인 공포의 세계 '이토준지 호러하우스'가 여름 한국을 찾아옵니다. </p>
+                  <button type="button" class="btn btn-primary" disabled>예매 종료</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
+              <div class="card card-hover">
+                <div class="shadow card-body">
+                  <h3 class="card-title">하비에르 카예하 특별전</h3>
+                  <h5 class="card-title">2024. 05. 27(월) ~ 06. 16(목)</h5>
+                  <p class="card-text">하비에르의 독특한 예술은 아주 평범한 일상과 무한한 상상력의 경계에 있습니다. 10년전에 그가 데뷔할 때 만들어진 초대장으로 여러분을 초대합니다</p>
+                  <button type="button" class="btn btn-primary" disabled>예매 종료</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
+              <div class="shadow card card-hover">
+                <div class="card-body">
+                  <h3 class="card-title">나무의 시간, 내촌 목공소</h3>
+                  <h5 class="card-title">2024. 06. 7(금) ~ 06. 30(일)</h5>
+                  <p class="card-text">'나무의 시간'은 미술관 최초로 목공소와 예술가가 협업한 전시로 단순한 예술전시를 넘어 자연과의 깊은 연결감을 경험하게 합니다.</p>
+                  <a href="https://tickets.interpark.com/goods/24007890" target="_blank" class="btn btn-warning">예매처 바로가기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+</section>
+
+<section class="bg-warning-subtle py-5" id="best">
+  <div class="container">
+    <div class="container overflow-hidden">
+      <div class="text-center text-custom py-5">
+          <h1 class="fw-bold mb-3" style="font-size: 3em;">이달의 베스트 리뷰 <i class="bi bi-list-stars"></i></h1>
+          <p class="fs-4">베스트 리뷰 작성하고 원하는 전시 할인 받자 !</p>
+      </div>
+    <div class="row">
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card border-warning" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">김*신</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">밤 끝으로의 여행</h6>
+            <a><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></a>
+            <p class="card-text text-truncate"> 무더운 여름날 밤이라는 전시를 보게 되어 마음까지 시원해지는 느낌을 받았습니다. 너무 좋은 시간이었고 재방문 의사 있습니다. 야간 전시도 한다는데 꼭 한번 밤에 가보고 싶네요!^^</p>
+            <a class="card-link link-warning" data-bs-toggle="modal" data-bs-target="#Modal1">전문 보기</a>
+            <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="ModalLabel1" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ModalLabel1">밤 끝으로의 여행</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    무더운 여름날 밤이라는 전시를 보게 되어 마음까지 시원해지는 느낌을 받았습니다. 너무 좋은 시간이었고 재방문 의사 있습니다. 야간 전시도 한다는데 꼭 한번 밤에 가보고 싶네요!^^
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card border-warning" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">고*우</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">스웨덴미술 컬렉션</h6>
+            <a><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></a>
+            <p class="card-text text-truncate">먼저 일찍 가서 관람 하고 도슨트를 들으면 이해가 쏙쏙 됩니다! 믿고보는 전시! 언제나 너무 알찬전시 이번 전시도 기대 이상입니다! 볼게 많았습니다. 인생은 알아가는 것의 여정인것 같습니다. 요즘 그런 생각을 많이 하게 되네요.</p>
+            <a class="card-link link-warning" data-bs-toggle="modal" data-bs-target="#Modal2">전문 보기</a>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="ModalLabel2" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ModalLabel2">스웨덴미술 컬렉션</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>먼저 일찍 가서 관람 하고 도슨트를 들으면 이해가 쏙쏙 됩니다! 믿고보는 전시! 언제나 너무 알찬전시 이번 전시도 기대 이상입니다! 볼게 많았습니다. 인생은 알아가는 것의 여정인것 같습니다. 요즘 그런 생각을 많이 하게 되네요.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card border-warning" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">강*주</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">아그네스 마틴 전시</h6>
+            <a><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></a>
+            <p class="card-text text-truncate"> 처음 방문했는데 여러번 놀라 감탄했습니다. 미술관 자체만으로도 예술적이라 그 안에 있는 것만으로도 기분이 좋았습니다. 중정 방향으로 나가 더 좋은 경관을 즐길 수 있었습니다. 티켓 하나로 3개의 전시관, 그리고 상영관까지 볼 수 있었는데 첫번째 전시관에서부터 사진을 찍을 수 없음을 안내받고 처음엔 아쉬운 마음이 들었습니다. 하지만 이내 작가님의 의도와 메세지를 온전히 전달받기 위해, 충분히 즐기기 위해 사진을 찍는 행위는 과하다는 느낌을 받았습니다. 덕분에 충분히 그림을 느끼며 생각해볼 수 있는 시간을 가질 수 있었습니다. 초등학교 6학년 동생과 함께 갔는데 조용히 즐기는 모습을 보고 정말 뿌듯했습니다. </p>
+            <a class="card-link link-warning" data-bs-toggle="modal" data-bs-target="#Modal3">전문 보기</a>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="ModalLabel3" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ModalLabel3">아그네스 마틴: 완벽의 순간들-In Dialog: 정상화</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>처음 방문했는데 여러번 놀라 감탄했습니다. 미술관 자체만으로도 예술적이라 그 안에 있는 것만으로도 기분이 좋았습니다. 중정 방향으로 나가 더 좋은 경관을 즐길 수 있었습니다. 티켓 하나로 3개의 전시관, 그리고 상영관까지 볼 수 있었는데 첫번째 전시관에서부터 사진을 찍을 수 없음을 안내받고 처음엔 아쉬운 마음이 들었습니다. 하지만 이내 작가님의 의도와 메세지를 온전히 전달받기 위해, 충분히 즐기기 위해 사진을 찍는 행위는 과하다는 느낌을 받았습니다. 덕분에 충분히 그림을 느끼며 생각해볼 수 있는 시간을 가질 수 있었습니다. 초등학교 6학년 동생과 함께 갔는데 조용히 즐기는 모습을 보고 정말 뿌듯했습니다.</p> 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card border-warning" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">정*규</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">거장의 삶을 엿보다</h6>
+            <a><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></a>
+            <p class="card-text text-truncate">일상적인 순간들의 찰나를 포착해서 모아둔 전시였어요
+              인류학적으로 미시사를 엿본 느낌도 들었구요
+              같이 웃음짓기도하고 내가 겪은 일상을 대입해보기도 했습니다
+              카테고리별로 나눠지고 컬러로 구분지은 공간이 관람하기에 좋았어요 전시 잘봤습니다!</p>
+            <a class="card-link link-warning" data-bs-toggle="modal" data-bs-target="#Modal4">전문 보기</a>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="ModalLabel4" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ModalLabel4">거장의 삶을 엿보다</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>일상적인 순간들의 찰나를 포착해서 모아둔 전시였어요
+                      인류학적으로 미시사를 엿본 느낌도 들었구요
+                      같이 웃음짓기도하고 내가 겪은 일상을 대입해보기도 했습니다
+                      카테고리별로 나눠지고 컬러로 구분지은 공간이 관람하기에 좋았어요 전시 잘봤습니다!</p> 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card border-warning" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">최*진</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">에드바르 뭉크</h6>
+            <a><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></a>
+            <p class="card-text text-truncate">EBS에서 정우철 전시해설가가 뭉크의 이야기를 설명해주신 것을 듣고, 기대하는 마음으로 전시를 보러갔습니다.
+              그런데 그림이 중복된 것도 많고 설명도 어려웠습니다. 목판화의 기법에 대한 것은 아무리 읽고 오디오로 들어도 이해가 되지 않더라고요.
+              뭉크의 이야기가 담겼더라면 좋았을 것 같아요. 고흐의 영향을 받아서 그림이 점차 밝아졌던 것, 자신의 힘든 내면을 극복해낸 과정..이런 것들이 보여졌다면 좋았을 것 같아요.
+              뭉크의 태양이 없어서 아쉬웠고요.ㅜㅜ</p>
+            <a class="card-link link-warning" data-bs-toggle="modal" data-bs-target="#Modal5">전문 보기</a>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="ModalLabel5" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ModalLabel5">에드바르 뭉크: 비욘드 더 스크림</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>EBS에서 정우철 전시해설가가 뭉크의 이야기를 설명해주신 것을 듣고, 기대하는 마음으로 전시를 보러갔습니다.
+                      그런데 그림이 중복된 것도 많고 설명도 어려웠습니다. 목판화의 기법에 대한 것은 아무리 읽고 오디오로 들어도 이해가 되지 않더라고요.
+                      뭉크의 이야기가 담겼더라면 좋았을 것 같아요. 고흐의 영향을 받아서 그림이 점차 밝아졌던 것, 자신의 힘든 내면을 극복해낸 과정..이런 것들이 보여졌다면 좋았을 것 같아요.
+                      뭉크의 태양이 없어서 아쉬웠고요.ㅜㅜ</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card border-warning" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">윤*희</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">광대의 그림자</h6>
+            <a><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></a>
+            <p class="card-text text-truncate">유화 작품의 매력에 빠져있는데 뷔페의 작품을 보면서 계속 감탄하게 되네요
+              도슨트 참여하면서 즐겁고 유익하게 감상할 수 있었습니다.
+              사람이 너무 많아서 라디오 듣는 느낌으로 멀리 있었지만 꼭 도슨트와 함께 하는 것을 추천합니다.
+              그림 속 광대 눈빛이 잊혀지지 않네요 흡인력이 강합니다.
+              추천합니다.</p>
+            <a class="card-link link-warning" data-bs-toggle="modal" data-bs-target="#Modal6">전문 보기</a>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="ModalLabel6" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ModalLabel6">베르나르 뷔페 - 천재의 빛: 광대의 그림자</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>유화 작품의 매력에 빠져있는데 뷔페의 작품을 보면서 계속 감탄하게 되네요
+                      도슨트 참여하면서 즐겁고 유익하게 감상할 수 있었습니다.
+                      사람이 너무 많아서 라디오 듣는 느낌으로 멀리 있었지만 꼭 도슨트와 함께 하는 것을 추천합니다.
+                      그림 속 광대 눈빛이 잊혀지지 않네요 흡인력이 강합니다.
+                      추천합니다.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-warning-subtle m-auto" id="login">
+<form class="row g-3 px-4 py-5">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control border-warning" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control border-warning" id="inputPassword4">
+  </div>
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <a href="membership.html" class="btn btn-warning">membership</a>
+    <button type="submit" class="btn btn-warning">Sign in</button>
+  </div>
+</form>
+</section>
+
+  <section class="py-5" id="sns-links">
+    <div class="container text-center text-dark">
+        <h3 class="fw-bold mb-3">My own palette</h3>
+        <p>이용해 주시는 모든 분들의 문의사항을 받고 있습니다.</p>
+        <div class="d-flex justify-content-evenly px-5 mt-4 w-50 m-auto">
+            <a href="https://www.youtube.com/" target="_blank"
+                class="btn btn-danger rounded-pill btn-lg px-4"><i class="bi bi-youtube"></i></a>
+            <a href="https://blog.naver.com" target="_blank" class="btn btn-success rounded-pill btn-lg px-4"><i class="bi bi-chat-square-quote"></i></a>
+            <a href="https://kakaocorp.com" target="_blank" class="btn btn-warning rounded-pill btn-lg px-4"><i class="bi bi-chat-dots"></i></a>
+        </div>
+    </div>
+</section>
+
+
+ <footer class="bg-warning text-white">
+  <div class="container text-center">
+      <p class="py-4 mb-0"><i class="bi bi-building"></i> 2024 Designed by <a
+              href="https://www.codethem.co.kr/" target="_blank"
+              class="link-dark text-decoration-none">
+              서울특별시 노원구 화랑로 621</a></p>
+  </div>
+</footer>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

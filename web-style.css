@@ -1,0 +1,121 @@
+nav-link {
+    font-family: "Moirai One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    margin: 0px;
+    overflow-x: hidden;
+  }
+
+.container-fluid {
+  background-color: #ffe8a3;
+  overflow: hidden;
+} 
+
+
+.nav-link {
+  color: rgb(110, 110, 110); 
+}
+
+.nav-link:hover {
+  color: rgb(58, 58, 58); 
+}
+
+.navbar-brand {
+  color: rgb(3, 3, 3); 
+}
+
+
+.btn-custom-search {
+  background-color: #d0a25d; 
+  color: white; 
+  border-color: rgb(255, 255, 255) ; 
+}
+
+.btn-custom-search:hover {
+  background-color: #bf9335; 
+  color: rgb(247, 246, 246); 
+}
+
+#carouselCaptions {
+  max-width: 1000px;
+  margin: auto; 
+  margin-top:30px;
+}
+
+#carouselCaptions .carousel-item img {
+  height: 550px;
+  object-fit: cover; 
+}
+
+
+#hotweek {
+  margin: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+#hotweeks h5 {
+  color: rgb(138, 15, 15); 
+}
+
+#hotweeks p {
+  color: rgb(52, 51, 51); 
+}
+
+#hotweekscards {
+  margin-bottom: 20px;
+
+}
+
+#earybirdcards {
+  margin-bottom: 20px;
+}
+
+#Earlybird h5 {
+  color: rgb(74, 74, 74); 
+}
+
+
+.bi-fire {
+  color: rgb(186, 15, 15);
+}
+
+#hotweeks h2 {
+  color: red;
+}
+
+.text-custom {
+  color: #ffcf6f; 
+}
+
+.text-custom h2 {
+  color: #FF5733; 
+}
+
+.text-custom p {
+  color: #f8c86e; 
+}
+
+
+
+   .card-hover:hover {
+    background-color: #ff910026;
+  }
+
+  #sns-links {
+    background-image:url(image1/snsbk.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ #membership {
+  padding: 90px;
+  margin-top: 50px;
+ }
